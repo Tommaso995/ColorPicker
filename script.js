@@ -4,9 +4,7 @@ btn.addEventListener("click", function(e) {
     e.prevendDefault();
     console.log("Clicked!");
 
-    let sfondo = btn.style.backgroundColor;
-    let target = document.querySelector("#changingBg");
+    let target = document.querySelector("#contenitore");
     console.log(target);
-
-    target.style.backgroundColor= sfondo;
+    target.style.backgroundColor= btn.innerText;
 });

@@ -1,0 +1,32 @@
+#contenitore{
+    width: 500px;
+    height: 500px;
+}
+
+#titolo {
+    font-weight: bold;
+}
+
+.btn{
+    width: 40px;
+    height: 40px;
+    float: left;
+    border: 1px dotted;
+    margin: 10px;
+}
+
+#rosso {
+    background-color: red;
+}
+
+#verde {
+    background-color: green;
+}
+
+#blu {
+    background-color: blue;
+}
+
+#grigio {
+    background-color: grey;
+}
